@@ -1,0 +1,84 @@
+#detailsInDepth {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.inDepthDetails {
+    border: 0.015rem dotted black;
+    border-radius: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: .25rem;
+    margin: 0;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.inDepthDetails .name {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.20rem;
+}
+
+.inDepthDetails .detailsSprite{
+    display: flex;
+    width: 50%;
+    align-content: center;
+}
+
+.adjustment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inDepthDetails .number {
+    margin: .25rem;
+    color: #fff;
+}
+
+.inDepthDetails .types {
+    color: #fff;
+    text-transform: capitalize;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    margin: .15rem;
+}
+
+
+.inDepthDetails .types .type {
+    justify-content: space-between;
+    border-radius: 1rem;
+    padding: .45rem;
+    margin: .15rem;
+    filter: brightness(1.1);
+}
+
+.inDepthDetails .pokeDetails {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 1.5rem;
+}
+
+.inDepthDetails .pokeDetails .baseStats {
+    display: grid;
+    list-style: none;
+    padding: 1rem;
+    margin: .5rem;
+    width: 100px;
+}
+
+.inDepthDetails .pokeDetails .abilities {
+    opacity: 0;
+}
+
+.detailsInDepth {
+    position: absolute;
+}
